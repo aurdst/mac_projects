@@ -1,0 +1,258 @@
+@media screen and (min-device-width: 120px) and (max-device-width: 768px){  
+    @font-face {
+        font-family: fragile;
+        src: url(../fonts/BebasNeue-Regular.ttf);
+        }
+    @font-face {
+        font-family: rising;
+        src: url(../fonts/secrcode.ttf);
+    }
+    @font-face {
+        font-family: made;
+        src: url(../fonts/MADE\ Canvas\ Regular\ PERSONAL\ USE.otf);
+    }
+    @font-face {
+        font-family: akira;
+        src: url(../fonts/Akira\ Expanded\ Demo.otf);
+    }
+    @font-face {
+        font-family: bebas;
+        src: url(../fonts/BebasNeue-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: kozgop;
+        src: url(../fonts/KozGoPr6N-ExtraLight.otf);
+        }
+
+    @keyframes apparition {
+        100%{
+            opacity: 1;
+            transform: none;
+        }
+    }
+
+    .cutBG {
+        width: 50%;
+        position: fixed;
+        height: 160vh;
+        background-color: #fff;
+    }
+
+    #button_homepage_project{
+        color: #FFF2D8;
+    }
+
+    .homepage_pro{
+        display: none;
+    }
+
+    .homepage_pro:hover{
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .a_nav_projects{
+        color: white;
+    }
+
+    body{
+        background-color: #fea900;
+        height: 3000px;
+        width: 150%;
+    }
+
+    #textBG{
+        display: none;
+    }
+
+    #textBG2{
+        display: none;
+    }
+
+    .nav_bar_porjects{
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        z-index: 9999;
+        color: rgb(59, 59, 59);
+        height: 55px;
+        padding-top: 10px;
+        margin: 0;
+        font-family: akira;
+        list-style-type: none;
+        opacity: 0;
+        transform: translateY(-30px);
+        animation: apparition 0.4s 1.6s ease-in-out forwards;
+        transition: all 0.3s ease-out;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(11, 11, 11) 0%,   rgb(44, 48, 72)53.4%, rgb(0, 0, 0) 99.5% );
+    }
+
+    .nav_bar_details{
+        display: none;
+    }
+
+    li .link_details{
+        font-size: 1vw;
+        left: 0;
+    }
+
+    .a_nav_details{
+        font-size: .6vw;
+        color: white;
+    }
+
+    main{
+        cursor: none;
+        position: relative;
+        top: 100px;
+        height: 100vh;
+    }
+
+    #ul_link_project{
+        position: relative;
+        list-style: none;
+        display: inline-block;
+        width: 100%;
+        left: 0%;
+    }
+
+    #link_project{
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-right: 10px;
+        position: relative;
+        width: 100%;
+        left: 0%;
+        font-size: 1vw;
+        transition: 1s;
+    }
+
+    #link_project:hover{
+        padding-top: 10px;
+        transition: 1s;
+    }
+
+    #link_details:hover{
+        padding-top: 1px;
+        transition: 1s;
+    }
+
+    /* CARDS */
+
+    .card_projects{
+        position: relative;
+        z-index: 9998;
+        width: 450px;
+        max-width: 450px;
+        height: 450px;
+        border-radius: 20px;
+        display: inline-block;
+        transition: 0.5s;
+        align-items: center;
+        left: 10%;
+    }
+
+    .card_projects #button_cards{
+        height: auto;
+        background-color: #fff;
+        padding: 10px;
+        position: relative;
+        font-family: akira;
+        font-size: 2vw;
+    }
+
+    .card_projects .circle_projects{
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%; 
+        height: 100%;
+    }  
+
+    .card_projects .circle_projects::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0; 
+        width: 100%;
+        height: 100%;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(11, 11, 11) 0%, rgb(44, 48, 72) 53.4%, rgb(0, 0, 0) 99.5% );
+        clip-path: circle(100px at center );
+        transition: 0.5s;
+    }
+
+    .card_projects:hover .circle_projects::before
+    { 
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(11, 11, 11) 0%, rgb(44, 48, 72) 53.4%, rgb(0, 0, 0) 99.5% );
+        border-radius: 20px;
+        clip-path: circle(850px at center)!important;
+    }
+
+    .card_projects img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+        height: 200px;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+
+    .card_projects:hover img {
+        left: 50%;
+        top: 400px;
+        height: 250px;
+    }
+
+    .card_projects .content_projects{
+        position: relative;
+        width: 50%;
+        left: 20%;
+        padding: 20px 20px 20px 40px;
+        transition: 0.5s;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .card_projects:hover .content_projects{
+        left: 0;
+        opacity: 1;
+        width: 100%;
+        font-size: .7em;
+        visibility: visible;
+    }
+
+    .card_projects .content_projects h2{
+        color: #fff;
+        text-transform: uppercase;
+        font-size:1.5em;
+        line-height: 2em;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-family: bebas;
+    }
+
+
+    .card_projects .content_projects p{
+        color: #fff;
+        font-size:1em;
+        font-family: kozgop;
+    }
+
+    .card_projects .content_projects a{
+        position: relative;
+        padding: 10px 20px;
+        border-radius: 10px;
+        background: #fff;
+        color: #111;
+        margin-top: -15px;
+        left: 13%;
+        width: auto;
+        font-size: 2vw;
+        height: 30px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 700;
+    }
+}

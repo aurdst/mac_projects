@@ -1,0 +1,1125 @@
+@font-face{
+	src: url(FONT/Comfortaa-Bold.ttf);
+	font-family: ComfortaBold;
+}
+
+@keyframes carrouselBalaine{
+	0% {left: 0%;}
+	50%{left: -100%;}
+	100%{left: -200%;}
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+header{
+	width: 100%;
+	color: white;
+	box-shadow: 0px 2px 12px grey;
+}
+/* FORMAT BUREAU PC */
+/* HEADER */
+	
+.textForm{
+	font-family: Comfortabold;
+	padding-left: 50px;
+}
+
+.textForm2{
+	font-family: Comfortabold;
+	padding-left: 50px;
+	color: rgb(230,68,72);
+}
+
+#BurgerMenu{
+	display: none;
+}
+
+#imgLogo{
+	width: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 47.5%;
+	margin-right: 47.5%;
+}
+
+#menu{
+	position: relative;
+	display: inline-block;
+	z-index: -1;
+	width: 100%;
+	height: 30px;
+	background-color: rgba(226,225,223,1);
+	margin-top: 0;
+	padding: 15px 0px;
+	font-family: ComfortaBold;
+}
+
+#LiensMenu {
+	display: inline-block;
+	width: 70%;
+	margin-right: 0px;
+	transition: 1s;
+}
+
+#menu:hover a p{
+	font-size: 20px;
+	transition: font-size 1s;
+	font-size: 18px;
+}
+
+#LiensMenu p{
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(47,37,18);
+	font-size: 14px;
+	padding-left: 3%;
+}
+
+#LiensMenu a{
+	padding-right: 20px;
+	font-size: 15px;
+} 
+
+#LiensResaux {
+	display: inline-block;
+	width: 20%;
+	font-size: 14px;
+	float: right;	
+}
+
+#LiensResaux img{
+	display: inline-block;
+	width: 30px;
+	margin-right: 5%;
+}
+
+/* CAROUSEL BALAINE  */
+
+#CarouselBalaine{
+	width: 100%;
+	max-width: 2000px;
+	height: 650px;
+	overflow: hidden;
+}
+
+#CarouselBalaine #ImgCarousel{
+	position: relative;
+	width: 300%;
+	padding: 0;
+	font-size: 0;
+	text-align: left;
+	animation: 10s carrouselBalaine infinite; 
+}
+
+#CarouselBalaine #ImgCarousel img{
+	width: 33.3%;
+	height:  auto;
+	float: left;
+} 
+
+#CarouselBalaine #ImgCarousel p{
+	width: 33.3%;
+	position: absolute;
+	height:  auto;
+	left: 33.3%;
+} 
+
+/* CARDS  */
+
+#Conteneurcards{
+	width: 45%;
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+#Conteneurcards2{
+	width: 45%;
+	display: inline-block;
+	margin-top: 2%;
+}
+
+h2{
+	font-family: ComfortaBold;
+	font-size: 22px;
+}
+
+p{
+	font-family: ComfortaBold;	
+}
+
+.Cards1{
+	width: 49%;
+	display: inline-block;
+}
+
+.Cards2{
+	width: 49%;
+	display: inline-block;
+}
+
+.Cards3{
+	width: 49%;
+	display: inline-block;
+}
+
+.Cards4{
+	width: 49%;
+	display: inline-block;
+}
+
+.ClassCards{
+	width:100%;
+}
+
+/* FAQ QUESTIONS COURANTES */
+
+#QuestionsConteneurImg{
+	width: 100%;
+	background-color: rgb(48,170,179);
+	display: inline-block;
+}
+
+#QuestionsConteneurImg p{
+	position: relative;
+	width: 30%;
+	left: 5%;
+	top: 20px;
+	display: inline-block;
+	font-size: 14px;
+}
+
+
+#QuestionsConteneurImg ul{
+	display: inline-block;
+	list-style-type: none;
+	line-height: 50px;
+	font-family: ComfortaBold;
+	background-color: white;
+	padding:15px 20px;
+	width: 20%;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+#list1{
+	margin-left: 15%;
+}
+
+#ImgQuestions{
+	width: 100%;
+}
+
+/* NOS VALEURS */
+
+#ConteneurValeur{
+	width: 100%;
+	background-color: rgb(226,225,223);
+	display: inline-block;
+}
+
+#ListValeur h2{
+	font-family: ComfortaBold;
+	font-size: 22px;
+	padding-left: 30px;
+	padding-top: 35px;
+}
+
+#ListValeur{
+	width: 42%;
+	margin: 0;
+	display: inline-block;
+}
+
+#ListValeur ul{
+	list-style-type: none;
+	font-family: ComfortaBold;
+	font-size: 14px;
+	display: inline-block;
+	padding-left: 100px;
+}
+
+#ListValeur li{
+	padding: 10px 0px;
+}
+#videoBalaine{
+ 	display: inline-block;
+ 	width: 40%;
+ 	padding-left: 55px;
+ 	padding-top: 50px;
+ 	padding-bottom: 50px;
+ }
+
+iframe{
+	width: 100%;
+}
+/*  FORMULAIRE */
+
+#FormBalaine{
+	width: 100%;
+	display: inline-block;
+}
+
+#FormBalaine h2{
+	padding-left: 30px;
+}
+
+form{
+	padding-left: 250px;
+	padding-bottom: 30px;
+}
+
+input{
+	background-color: rgb(226,225,223);
+	font-family: ComfortaBold;
+	border: none;
+	background-color: 
+}
+
+label{	
+	padding-top: 10px;
+	font-family: ComfortaBold;
+	display: block;
+	border: none;
+	background-color: 
+}
+
+#boutonSubmit{
+	position: relative;
+	width: 40%;
+	background-color: rgb(48,170,179);
+	font-family: ComfortaBold;
+	display: inline-block;
+	border-style: none;
+	height: 50px;
+	left: 20%;
+	top: -50px;
+}
+
+/* FOOTER */
+
+#EnteteFooter{
+	width: 100%;
+	height: 30px;
+	background-color: rgb(230,68,72);
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+#EnteteFooter p{
+padding-left: 20px;
+}
+
+#Footer{
+	background-color: rgb(105,108,109);
+	width: 100%;
+	height: 320px;
+	display: inline-block;
+}
+/* CARTE */
+#CarteFooter {
+	width: 32%;
+	height: 200px;
+	display: inline-block;
+}
+#CarteFooter iframe{
+	width: 100%;
+	height: 200px;
+	padding-left: 15px;
+	padding-top: 15px;
+	display: inline-block;
+}
+/* NAVIGATION */
+#NavigationFooter{
+	width: 32%;
+	height: 200px;
+	display: inline-block;
+	position: relative;
+	top: -70px;
+	text-align: center;
+}
+
+#NavigationFooter ul {
+	display: inline-block;
+	list-style-type: none;
+	position: relative;
+	top: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+#NavigationFooter a{
+	text-decoration: none;
+	color: white;
+}
+/* CONTACT */
+
+#ContactFooter{
+	width: 32%;
+	height: 200px;
+	display: inline-block;
+	position: relative;
+	top: -100px;
+	text-align: center;
+}
+
+#ContactFooter ul {
+	display: inline-block;
+	list-style-type: none;
+	position: relative;
+	top: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+#ContactFooter a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FORMAT TABLETTE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+
+	body{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		overflow-x: hidden;
+	}
+
+	header{
+		width: 100%;
+		color: white;
+		box-shadow: 0px 2px 12px grey;
+	}
+
+	/* FORMAT TABLETTE*/
+	/* HEADER */
+	
+	.textForm{
+		font-family: Comfortabold;
+		padding-left: 50px;
+	}
+
+	.textForm2{
+		font-family: Comfortabold;
+		padding-left: 50px;
+		color: rgb(230,68,72);
+	}
+
+
+	#BurgerMenu{
+		display: contents;
+	}
+	#imgLogo{
+		width: 5%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-left: 47.5%;
+		margin-right: 47.5%;
+	}
+
+	#menu{
+		display: none;
+	}
+
+	#menuTab:hover #LiensMenu p{
+	font-size: 20px;
+	transition: font-size 1s;
+	font-size: 17px;
+}
+	  .menuTab{
+	    position: fixed;
+	    z-index: 998;
+	    list-style-type: none;
+	    width: 150px;
+	    height: 400px;
+	    top: 0;
+	    padding-top: 80px;
+	    margin: 0px !important;
+	    background: white ;
+	    transition: transform .5s ease-in-out;
+
+	    transform: translate(-100%);
+	    -webkit-transform: translate(-100%);
+	  }
+	  .menuTab.isOpen{
+	    transform: translate(0%);
+	    -webkit-transform: translate(0%);
+	  }
+
+	  .menuTab a{
+	    text-decoration: none;
+	    font-family: Keep Calm;
+	    color: black;
+	    font-size: 2vw;
+	  }
+
+	  .menuTab a:hover{
+	    color: lightgrey;
+	  }
+
+	  .menuTab li{
+	    padding: 10px 0px;
+	  }
+
+	  #BoutonBurgermenuTab{
+	    position: absolute;
+	    left: 30px;
+	    top: 20px;
+	    z-index: 999;
+	    width: 5%;
+	    height: 10px;
+	    cursor: pointer;
+	  }
+
+	  #BoutonBurgermenuTab .barre1{
+	    width: 100%;
+	    height: 1px;
+	    background-color: black;
+	    z-index: 999;
+	    margin-top: 3px;
+	  }
+
+	  #BoutonBurgermenuTab .barre2{
+	    width: 100%;
+	    height: 1px;
+	    background-color: black;
+	    z-index: 999;
+	    margin-top: 3px;
+	  }
+
+	  #BoutonBurgermenuTab .barre1.isClick{
+	    transform: rotate(45deg);
+	    transition: transform 1s;
+	    position: fixed;
+	    width: 5%;
+	  }  
+	  
+	  #BoutonBurgermenuTab .barre2.isClick{
+	    transform: rotate(-45deg);
+	    transition: transform 1s;
+	    position: fixed;
+	    width: 5%;
+	  }
+
+/* 	  CAROUSEL   */
+
+	#CarouselBalaine{
+		width: 100%;
+		max-width: 2000px;
+		height: 400px;
+		overflow: hidden;
+	}
+	/* CARDS  */
+
+	#Conteneurcards{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		margin-left: 0%;
+	}
+
+	#Conteneurcards2{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.Cards1{
+		width: 50%;
+		display: inline-block;
+	}
+
+	.Cards2{
+		width: 50%;
+		display: inline-block;
+	}
+
+	.Cards3{
+		width: 50%;
+		display: inline-block;
+	}
+
+	.Cards4{
+		width: 50%;
+		display: inline-block;
+	}
+
+	/* FAQ QUESTIONS COURANTES */
+
+	#QuestionsConteneurImg{
+		width: 100%;
+		background-color: rgb(48,170,179);
+		display: inline-block;
+	}
+
+	#QuestionsConteneurImg p{
+		position: relative;
+		width: 30%;
+		left: 5%;
+		top: 20px;
+		display: inline-block;
+		font-size: 14px;
+	}
+
+
+	#QuestionsConteneurImg ul{
+		display: inline-block;
+		list-style-type: none;
+		line-height: 50px;
+		font-family: ComfortaBold;
+		background-color: white;
+		padding:15px 20px;
+		width: 30%;
+		font-size: 14px;
+		margin-bottom: 40px;
+	}
+
+	#list1{
+		margin-left: 15%;
+	}
+
+	#list3{
+		margin-left: 35%;
+	}
+
+	#ImgQuestions{
+		width: 100%;
+	}
+
+/* FORMULAIRE */
+
+	#boutonSubmit{
+	    position: relative;
+	    width: 40%;
+	    background-color: rgb(48,170,179);
+	    font-family: ComfortaBold;
+	    display: block;
+	    border-style: none;
+	    height: 50px;
+	    left: 0%;
+	    top: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PHONE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:560px) {
+
+
+	body{
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		overflow-x: hidden;
+	}
+
+	header{
+		width: 100%;
+		color: white;
+		box-shadow: 0px 2px 12px grey;
+	}
+
+	/* FORMAT TABLETTE*/
+	/* HEADER */
+	
+	.textForm{
+		font-family: Comfortabold;
+		padding-left: 50px;
+	}
+
+	.textForm2{
+		font-family: Comfortabold;
+		padding-left: 50px;
+		color: rgb(230,68,72);
+	}
+
+	#BurgerMenu{
+		display: contents;
+	}
+	#imgLogo{
+		width: 5%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-left: 47.5%;
+		margin-right: 47.5%;
+	}
+
+	#menu{
+		display: none;
+	}
+
+	.menuTab{
+	    position: fixed;
+	    z-index: 998;
+	    list-style-type: none;
+	    width: 150px;
+	    height: 400px;
+	    top: 0;
+	    padding-top: 80px;
+	    margin: 0px !important;
+	    background: white ;
+	    transition: transform .5s ease-in-out;
+
+	    transform: translate(-100%);
+	    -webkit-transform: translate(-100%);
+	}
+	.menuTab.isOpen{
+	    transform: translate(0%);
+	    -webkit-transform: translate(0%);
+	}
+
+	.menuTab a{
+	    text-decoration: none;
+	    font-family: Comfortabold;
+	    color: black;
+	    font-size: 2vw;
+	}
+
+	  .menuTab a:hover{
+	    color: lightgrey;
+	  }
+
+	  .menuTab li{
+	    padding: 10px 0px;
+	  }
+
+	  #BoutonBurgermenuTab{
+	    position: absolute;
+	    left: 30px;
+	    top: 20px;
+	    z-index: 999;
+	    width: 5%;
+	    height: 10px;
+	    cursor: pointer;
+	  }
+
+	  #BoutonBurgermenuTab .barre1{
+	    width: 100%;
+	    height: 1px;
+	    background-color: black;
+	    z-index: 999;
+	    margin-top: 3px;
+	  }
+
+	  #BoutonBurgermenuTab .barre2{
+	    width: 100%;
+	    height: 1px;
+	    background-color: black;
+	    z-index: 999;
+	    margin-top: 3px;
+	  }
+
+	  #BoutonBurgermenuTab .barre1.isClick{
+	    transform: rotate(45deg);
+	    transition: transform 1s;
+	    position: fixed;
+	    width: 5%;
+	  }  
+	  
+	  #BoutonBurgermenuTab .barre2.isClick{
+	    transform: rotate(-45deg);
+	    transition: transform 1s;
+	    position: fixed;
+	    width: 5%;
+	  } 
+
+	/* 	  CAROUSEL   */
+
+	#CarouselBalaine{
+		width: 100%;
+		max-width: 2000px;
+		height: 250px;
+		overflow: hidden;
+	}
+
+	/* CARDS  */
+
+	#Conteneurcards{
+		width: 100%;
+		display: block;
+		margin-left: 0%;
+	}
+
+	#Conteneurcards2{
+		width: 100%;
+		display: block;
+		}
+
+	.Cards1{
+		width: 60%;
+		margin-left:20%;
+		display: block;
+	}
+
+	.Cards2{
+		width: 60%;
+		margin-left:20%;
+		display: block;
+	}
+
+	.Cards3{
+		width: 60%;
+		margin-left:20%;
+		display: block;
+	}
+
+	.Cards4{
+		width: 60%;
+		margin-left:20%;
+		display: block;
+	}
+
+	/* FAQ QUESTIONS COURANTES */
+
+	#QuestionsConteneurImg{
+		width: 100%;
+		background-color: rgb(48,170,179);
+		display: inline-block;
+	}
+
+	#QuestionsConteneurImg p{
+		position: relative;
+		width: 100%;
+		font-size: 14px;
+		text-align: center;
+		left: 0;
+	}
+
+
+	#QuestionsConteneurImg ul{
+		display: block;
+		list-style-type: none;
+		line-height: 50px;
+		font-family: ComfortaBold;
+		background-color: white;
+		width: 100%;
+		font-size: 14px;
+		margin: 0%;
+   		margin-bottom: 20px;
+	}
+
+	#list1{
+		margin-left: 15%;
+	}
+
+	#list3{
+		margin-left: 35%;
+	}
+
+	#ImgQuestions{
+		width: 100%;
+	}
+
+/* 	NOS VALEURS */
+
+	#ConteneurValeur{
+	width: 100%;
+	background-color: rgb(226,225,223);
+	display: inline-block;
+	}
+
+	#ListValeur h2{
+		font-family: ComfortaBold;
+		font-size: 22px;
+		text-align: center;
+		width: 100%;
+		padding-left: 0px;
+   		padding-top: 0px;
+	}
+
+	#ListValeur{
+		width: 100%;
+		margin: 0;
+		display: block;
+	}
+
+	#ListValeur ul{
+		list-style-type: none;
+		font-family: ComfortaBold;
+		font-size: 14px;
+		display: block;
+		padding-left: 0;
+	}
+
+	#ListValeur li{
+		padding: 10px 0px;
+	}
+
+	#videoBalaine{
+	 	display: block;
+	 	width: 100%;
+	 	padding-top: 0px;
+    	padding-bottom: 0px;
+    	padding-left: 0;
+	 }
+
+	iframe{
+		width: 100%;
+	}
+
+/* FORMULAIRE */
+
+	#FormBalaine{
+		width: 100%;
+		display: inline-block;
+	}
+
+	#FormBalaine h2{
+		padding-left: 0px;
+		text-align: center;
+	}
+
+	form{
+		padding-left: 0px;
+		padding-bottom: 30px;
+		text-align: center;
+	}
+
+	input{
+		background-color: rgb(226,225,223);
+		font-family: ComfortaBold;
+		border: none;
+		background-color: 
+	}
+
+	label{	
+		padding-top: 10px;
+		font-family: ComfortaBold;
+		display: block;
+		margin-left:20%;
+		border: none;
+		background-color: 
+	}
+	#boutonSubmit{
+	    position: relative;
+	    width: 90%;
+	    background-color: rgb(48,170,179);
+	    font-family: ComfortaBold;
+	    display: block;
+	    border-style: none;
+	    height: 50px;
+	    left: 5%;
+	    top: 20px;
+	}
+	
+	#Footer{
+		font-size:12px;
+		height: 400px;
+	}
+
+	/* CARTE */
+	#CarteFooter {
+		width: 100%;
+		height: 200px;
+		display: block;
+	}
+
+	#CarteFooter iframe{
+		width: 100%;
+		height: 200px;
+		padding-left: 0px;
+		padding-top: 0px;
+		display: block;
+	}
+
+		/* NAVIGATION */
+
+	#NavigationFooter{
+		width: 45%;
+		height: 200px;
+		display: inline-block;
+		position: relative;
+		top: 0px;
+		text-align: center;
+	}
+
+	#NavigationFooter ul {
+		display: inline-block;
+		list-style-type: none;
+		position: relative;
+		top: 20px;
+		margin: 0;
+		padding: 0;
+	}
+
+	#NavigationFooter a{
+		text-decoration: none;
+		color: white;
+	}
+
+	/* CONTACT */
+
+	#ContactFooter{
+		width: 45%;
+		height: 200px;
+		display: inline-block;
+		position: relative;
+		top: -20px;
+		text-align: center;
+	}
+
+	#ContactFooter ul {
+		display: inline-block;
+		list-style-type: none;
+		position: relative;
+		top: 20px;
+		margin: 0;
+		padding: 0;
+	}
+
+	#ContactFooter a{
+		text-decoration: none;
+		color: white;
+	}
+}

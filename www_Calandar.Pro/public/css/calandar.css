@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(35, 35, 35);
+}
+
+.calandar_table{
+    width: 100%;
+    height: calc(100vh - 128px);
+}
+
+.calandar_table td{
+    border: 1px solid;
+    border-color: #373737;
+    padding: 10px;
+    vertical-align: top;
+    width: 14.29%;
+    height: 20%;
+}
+
+.calandar_table_weeks4weeks td{
+    height: 16.66%;
+}
+
+.calandarWeekDay {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+
+h1{
+    color: white;
+}
+
+.calandarDay {
+    padding-left: 5px;
+    background-color: #343434;
+    color: white;
+}
+
+.calandarOtherMonth .calandarDay{
+    opacity: 0.33;
+}
+
+div.calandar__events {
+    color: lightgray;
+}
+
+.calandar__events > a {
+    color: #d2d2d2;
+    text-decoration: none;
+}
+
+div.calandar__events{
+    color: #d2d2d2;
+    text-decoration: none;
+}
+
+a {
+    color: #d2d2d2 !important;
+    text-decoration: none !important;
+}
+
+a.event_style{
+    color: #d2d2d2;
+    text-decoration: none;
+}

@@ -1,0 +1,200 @@
+@font-face {
+    font-family: fragile;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+    }
+@font-face {
+    font-family: rising;
+    src: url(../fonts/secrcode.ttf);
+}
+@font-face {
+    font-family: made;
+    src: url(../fonts/MADE\ Canvas\ Regular\ PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: akira;
+    src: url(../fonts/Akira\ Expanded\ Demo.otf);
+}
+@font-face {
+    font-family: bebas;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: kozgop;
+    src: url(../fonts/KozGoPr6N-ExtraLight.otf);
+    }
+
+@keyframes apparition {
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+body{
+    background-color: #313131;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    cursor: none;
+}
+
+.cursor{
+    position: fixed;
+    width: 25px;
+    height:25px;
+    background-color: rgb(71 71 71 / 0%);
+    border-radius: 50%;
+    border: #323232 1px solid;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    z-index: 99999;
+    transform: translate(-50%,-50%);
+}
+
+.cursor2{
+    position: fixed;
+    width: 10px;
+    height:10px;
+    background-color: #323232;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    z-index: 99999;
+    transform: translate(-50%,-50%);
+    transition: .08s;
+}
+
+ul{
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    left: 10%;
+}
+
+li{
+    display: inline-block;
+    justify-content: space-around;
+    position: relative;
+    padding: 0px 50px 0px 50px;
+}
+
+a{
+    font-family: akira;
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+    cursor: none;
+}
+
+a:hover{
+    color: #FFF2D8;
+    transition: .5s;
+    cursor: none;
+}
+
+#img_contenair{
+    position: relative;
+    z-index: 9998;
+    top: 0;
+    background-image: url(../img/afpa.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 50%;
+}
+
+h2{
+    position: absolute;
+    left: 55%;
+    width: 30%;
+    top: 15%;
+    font-family: akira;
+}
+
+#sec_parcours{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+main{
+    top: 0!important;
+}
+
+.p_stmarie{
+    position: absolute;
+    left: 55%;
+    width: 30%;
+    top: 250px;
+    height: auto;
+    padding: 10px 0px;
+    background-color: rgba(255, 255, 255, .3);
+    font-family: kozgop;
+    font-size: .8vw;
+}
+
+button{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(11, 11, 11) 0%,   rgb(44, 48, 72)53.4%, rgb(0, 0, 0) 99.5% );
+    color: white;
+    font-family: akira;
+    position: absolute;
+    width: 15%;
+    height: auto;
+    top: 80%;
+    left: 55%;
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    cursor: none;
+}
+
+@media screen and (max-device-width: 767px){  
+
+    body{
+        overflow-x: hidden;
+    }
+
+    h2{
+        position: relative;
+        left: 5%;
+        width: 90%;
+        top: 1%;
+        font-family: akira;
+        font-size: 3vw;
+    }
+
+    button{
+        width: 40%;
+        left: 30%;
+        position: relative;
+        top: 0%;
+    }
+
+    .p_stmarie{
+        font-size: 3vw;
+        left: 0;
+        width: 90%;
+        position: relative;
+        top: 0;
+        left: 5%;
+    }
+
+    #img_contenair{
+        position: relative;
+        z-index: 9998;
+        top: 0;
+        background-image: url(../img/afpa.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 30vh;
+        width: 100%;
+    }
+    #sec_parcours{
+        height: 110vh;
+    }
+}

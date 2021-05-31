@@ -1,0 +1,384 @@
+%!Adobe-FontList 1.18
+%Locale:0x40c
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Augustfree
+FamilyName:August free
+StyleName:Regular
+FullName:August free
+MenuName:August free
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\August free.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:20812
+FileModTime:1536322636
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,August free
+NameArray:0,Mac,4,August free
+NameArray:0,Win,1,August free
+NameArray:0,Win,16,August free
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BrookeSmithScript
+FamilyName:Brooke Smith Script
+StyleName:Regular
+FullName:Brooke Smith Script
+MenuName:Brooke Smith Script
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\Brooke Smith Script.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:58560
+FileModTime:1536535320
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Brooke Smith Script
+NameArray:0,Mac,4,Brooke Smith Script
+NameArray:0,Win,1,Brooke Smith Script
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Comfortaa-Bold
+FamilyName:Comfortaa
+StyleName:Bold
+FullName:Comfortaa Bold
+MenuName:Comfortaa
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\Comfortaa-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:134916
+FileModTime:1312920000
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Comfortaa Bold
+NameArray:0,Win,1,Comfortaa
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Comfortaa-Light
+FamilyName:Comfortaa
+StyleName:Light
+FullName:Comfortaa Light
+MenuName:Comfortaa Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\Comfortaa-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:135420
+FileModTime:1312920000
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Comfortaa Light
+NameArray:0,Win,1,Comfortaa Light
+NameArray:0,Win,16,Comfortaa
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Comfortaa-Regular
+FamilyName:Comfortaa
+StyleName:Regular
+FullName:Comfortaa Regular
+MenuName:Comfortaa
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\Comfortaa-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:135304
+FileModTime:1312920000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Comfortaa Regular
+NameArray:0,Win,1,Comfortaa
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Dalmatins
+FamilyName:Dalmatins
+StyleName:Regular
+FullName:Dalmatins
+MenuName:Dalmatins
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\Dalmatins.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:75756
+FileModTime:1535667314
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Dalmatins
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\desktop.ini
+FileModTime:1543908694
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Generica-Bold
+FamilyName:Generica
+StyleName:Bold
+FullName:Generica Bold
+MenuName:Generica
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\Generica Bold.otf
+DataFormat:sfntData
+hasSVG:no
+FileLength:42920
+FileModTime:1430421872
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Generica Bold
+NameArray:0,Win,1,Generica
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Helvetica-Light
+FamilyName:Helvetica Light
+StyleName:Regular
+FullName:Helvetica Light
+MenuName:Helvetica Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\Helvetica-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:24164
+FileModTime:1538379783
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Helvetica Light
+NameArray:0,Win,1,Helvetica Light
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:KeepCalm-Medium
+FamilyName:Keep Calm
+StyleName:Regular
+FullName:Keep Calm Medium
+MenuName:Keep Calm Med
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\KeepCalm-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:86716
+FileModTime:1427207164
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Keep Calm Medium
+NameArray:0,Win,1,Keep Calm Med
+NameArray:0,Win,16,Keep Calm
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RoundedMplus1c-Black
+FamilyName:Rounded Mplus 1c Black
+StyleName:Regular
+FullName:Rounded Mplus 1c Black
+MenuName:Rounded Mplus 1c Black
+StyleBits:0
+FamilyNameNative:Rounded Mplus 1c Black
+StyleNameNative:Regular
+FullNameNative:Rounded Mplus 1c Black Regular
+WritingScript:Japanese
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\MPLUSRounded1c-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:3625452
+FileModTime:1526543432
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rounded Mplus 1c Black
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RoundedMplus1c-Bold
+FamilyName:Rounded Mplus 1c Bold
+StyleName:Bold
+FullName:Rounded Mplus 1c Bold
+MenuName:Rounded Mplus 1c Bold
+StyleBits:2
+FamilyNameNative:Rounded Mplus 1c Bold
+StyleNameNative:Bold
+FullNameNative:Rounded Mplus 1c Bold Bold
+WritingScript:Japanese
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\MPLUSRounded1c-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:3532960
+FileModTime:1526543432
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rounded Mplus 1c Bold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RoundedMplus1c-ExtraBold
+FamilyName:Rounded Mplus 1c ExtraBold
+StyleName:Regular
+FullName:Rounded Mplus 1c ExtraBold
+MenuName:Rounded Mplus 1c ExtraBold
+StyleBits:0
+FamilyNameNative:Rounded Mplus 1c ExtraBold
+StyleNameNative:Regular
+FullNameNative:Rounded Mplus 1c ExtraBold Regular
+WritingScript:Japanese
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\MPLUSRounded1c-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:3618576
+FileModTime:1526543432
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rounded Mplus 1c ExtraBold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RoundedMplus1c-Light
+FamilyName:Rounded Mplus 1c Light
+StyleName:Regular
+FullName:Rounded Mplus 1c Light
+MenuName:Rounded Mplus 1c Light
+StyleBits:0
+FamilyNameNative:Rounded Mplus 1c Light
+StyleNameNative:Regular
+FullNameNative:Rounded Mplus 1c Light Regular
+WritingScript:Japanese
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\MPLUSRounded1c-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:3285464
+FileModTime:1526543432
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rounded Mplus 1c Light
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RoundedMplus1c-Medium
+FamilyName:Rounded Mplus 1c Medium
+StyleName:Regular
+FullName:Rounded Mplus 1c Medium
+MenuName:Rounded Mplus 1c Medium
+StyleBits:0
+FamilyNameNative:Rounded Mplus 1c Medium
+StyleNameNative:Regular
+FullNameNative:Rounded Mplus 1c Medium Regular
+WritingScript:Japanese
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\MPLUSRounded1c-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:3423112
+FileModTime:1526543432
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rounded Mplus 1c Medium
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RoundedMplus1c-Regular
+FamilyName:Rounded Mplus 1c
+StyleName:Regular
+FullName:Rounded Mplus 1c
+MenuName:Rounded Mplus 1c
+StyleBits:0
+FamilyNameNative:Rounded Mplus 1c
+StyleNameNative:Regular
+FullNameNative:Rounded Mplus 1c Regular
+WritingScript:Japanese
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\MPLUSRounded1c-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:3380464
+FileModTime:1526543432
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rounded Mplus 1c
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RoundedMplus1c-Thin
+FamilyName:Rounded Mplus 1c Thin
+StyleName:Regular
+FullName:Rounded Mplus 1c Thin
+MenuName:Rounded Mplus 1c Thin
+StyleBits:0
+FamilyNameNative:Rounded Mplus 1c Thin
+StyleNameNative:Regular
+FullNameNative:Rounded Mplus 1c Thin Regular
+WritingScript:Japanese
+OutlineFileName:C:\Users\59013-54-02\Desktop\Font\MPLUSRounded1c-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:2899928
+FileModTime:1526543432
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rounded Mplus 1c Thin
+%EndFont
+

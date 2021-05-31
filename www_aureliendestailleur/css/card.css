@@ -1,0 +1,185 @@
+@font-face {
+    font-family: fragile;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+    }
+@font-face {
+    font-family: kozgop;
+    src: url(../fonts/KozGoPr6N-ExtraLight.otf);
+    }
+@font-face {
+    font-family: rising;
+    src: url(../fonts/secrcode.ttf);
+}
+@font-face {
+    font-family: bebas;
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+
+.card{
+    position: relative;
+    width: 400px;
+    height: 260px;
+    border-radius: 20px;
+    display: inline-flex;
+    transition: 0.5s;
+    align-items: center;
+    left: 6%;
+}
+
+.card .circle{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+}  
+
+.card .circle::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    background-color: #202020;
+    clip-path: circle(80px at center );
+    transition: 0.5s;
+}
+
+.card:hover .circle::before
+{ 
+    background-color: rgb(32, 32, 32);
+    border-radius: 20px;
+    clip-path: circle(350px at center)!important;
+}
+
+.card img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    height: 100px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.card:hover img {
+    left: 80%;
+    height: 250px;
+}
+
+.card .content{
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.card:hover .content{
+    left:0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.card .content h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size:1.5em;
+    line-height: 2em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: bebas;
+}
+
+
+.card .content p{
+    color: #fff;
+    font-size:.7em;
+    font-family: kozgop;
+}
+
+.card .content a{
+    position: relative;
+    color:#fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #fff;
+    color: #111;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* RESPONSIVE ------------------ */
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1366px){  
+
+    .card {
+        width: 100%;
+        max-width: 250px;
+        height: 400px;
+        align-items: flex-start;
+        margin: 10px;
+        left: 4.5%;
+    }
+    .crad:hover{
+        height: 300px;
+    }
+    .card .content{
+        width: 100%;
+        left: 0;
+        padding: 40px;
+    }
+    .card:hover img{
+        top: 70%;
+        left: 50%;
+        height: 150px;
+    }
+
+    .card .content h2{
+        color: #fff;
+        text-transform: uppercase;
+        font-size:1em;
+        line-height: 1em;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .card .content p{
+        color: #fff;
+        font-size:.7em;
+        font-family: kozgop;
+    }
+}
+
+@media screen and (min-device-width: 500px) and (max-device-width: 750px){
+    
+    .card{
+        left: 15%;
+    }
+    
+    .card .content{
+        padding: 20px;
+    }
+
+    .card:hover img{
+        left: 80%;
+        height: 200px;
+        padding-top: 10px;
+        z-index: 9999;
+    }
+
+    .card .content h2{
+        color: #fff;
+        text-transform: uppercase;
+        font-size:1em;
+        line-height: 1em;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
