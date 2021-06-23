@@ -1,0 +1,220 @@
+@font-face {
+    font-family: stereo;
+    src: url(../fonts/stereofidelic.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: keep;
+    src: url(../fonts/KeepCalm-Medium.ttf);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+} 
+::-webkit-scrollbar-track {
+    background-color: #6db500;
+} 
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); 
+} 
+
+::-webkit-scrollbar-button {
+    background-color: #6db500;
+} 
+
+::-webkit-scrollbar-corner {
+    background-color: black;
+} 
+
+body{
+    background-image: url(../img/backwhite.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240vh;
+}
+
+#logo{
+    position: absolute;
+    width: 15%;
+    left: 42%;
+    top: 10px;
+    height: auto;
+    z-index: 999;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgba(255, 170, 0, 1);
+}
+
+.a_nav{
+    list-style-type: none;
+    text-decoration: none;
+    display:inline-block;
+    position: relative;
+    padding-left: 100px;
+    color: white;
+    left: 20%;
+}
+
+.a_nav_right{
+    color: white;
+    position: relative;
+    left: 8%;
+    padding-left: 50px;
+}
+
+ul{
+    display:inline-block;
+    position: relative;
+    width: 90%;
+    left: 5%;
+}
+
+nav{
+    width: 49%;
+    margin: 0;
+    display: inline-block;
+}
+
+li{
+    display:inline-block;
+}
+
+.section_rules{
+    position: relative;
+}
+
+.button_disconnect{
+    left: 100px;
+    height: 30px;
+    position: relative;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 1.5vw;
+    font-family: keep;
+}
+
+.button_connect{
+    left: 100px;
+    height: 30px;
+    position: relative;
+    background-color: rgb(33, 152, 0);
+    color: white;
+    padding: 10px;
+    font-size: 1.5vw;
+    font-family: keep;
+}
+
+header{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 120px;
+    top: 3%;
+    margin: 0;
+    padding: 0;
+    font-family: stereo;
+    font-size: 2vw;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+h1{
+    position: relative;
+    width: 33%;
+    left: 26%;
+    top: 10px;
+    font-size: 3vw;
+    padding: 150px;
+    padding-top: 250px;
+    text-align: center;
+    color: black;
+    font-family: stereo;
+    background: url(../img/ornement_winner.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h2{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    font-size: 2vw;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 170, 0, 1);
+    font-family: keep;
+}
+
+p{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    font-size: 1.5vw;
+    text-align: center;
+    color: black;
+    font-family: roboto;
+    margin: 0;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 1300px) {
+
+    body{
+        height: 245vh;
+    }
+
+    header{
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 80px;
+        top: 3%;
+        margin: 0;
+        padding: 0;
+        font-family: stereo;
+        font-size: 2vw;
+        background-color: rgba(0, 0, 0, .6);
+    }
+
+    .a_nav{
+        left: 10%;
+    }
+
+    h1{
+        position: relative;
+        width: 20%;
+        left: 28%;
+        top: 0;
+        font-size: 2.5vw;
+        padding: 150px;
+        padding-bottom: 50px;
+        padding-top: 150px;
+        text-align: center;
+        color: black;
+        font-family: stereo;
+        background: url(../img/ornement_winner.png);
+        background-position: 50% 17;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .section_rules{
+        position: relative;
+        padding-bottom: 15px;
+    }
+
+}

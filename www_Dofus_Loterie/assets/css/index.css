@@ -1,0 +1,311 @@
+@font-face {
+    font-family: stereo;
+    src: url(../fonts/stereofidelic.ttf);
+}
+
+@font-face {
+    font-family: keep;
+    src: url(../fonts/KeepCalm-Medium.ttf);
+}
+
+body{
+    background-image: url(../img/dieuenu.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+} 
+::-webkit-scrollbar-track {
+    background-color: #6db500;
+} 
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); 
+} 
+
+::-webkit-scrollbar-button {
+    background-color: #6db500;
+} 
+
+::-webkit-scrollbar-corner {
+    background-color: black;
+} 
+
+.login-form{
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    padding:20px;
+    font-family: stereo;
+    text-align: center;
+    width: 40%;
+    position: relative;
+    left: 28%;
+    font-size: 3vw;
+    top:10%;
+}
+
+.login-form a{
+    text-decoration: underline;
+}
+
+.go_login{
+    font-family: stereo;
+    font-size: 2vw;
+    text-decoration: underline;
+}
+
+label{
+    font-family: stereo;
+}
+
+
+.alert alert-succes{
+    position: relative;
+    font-size: 2vw;
+    font-family: keep;
+}
+
+h2{
+    background-color: rgba(255, 170, 0, 1);
+    padding:20px;
+    font-family: keep;
+    font-size: 1vw;
+    position: relative;
+    color: white;
+    width: 40%;
+    left: 28%;
+    top: 13%;
+    text-align: center;
+    z-index: 998;
+}
+
+#logo{
+    position: fixed;
+    width: 20%;
+    left: 40%;
+    top: -10px;
+    height: auto;
+    z-index: 999;
+}
+
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgba(255, 170, 0, 1);
+}
+
+.a_nav{
+    list-style-type: none;
+    text-decoration: none;
+    display:inline-block;
+    position: relative;
+    padding-left: 100px;
+    left: 8%;
+    color: white;
+}
+
+.a_nav_right{
+    color: white;
+    position: relative;
+    left: 7%;
+    padding-left: 100px;
+}
+
+header{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 120px;
+    top: 5%;
+    margin: 0;
+    padding: 0;
+    font-family: stereo;
+    font-size: 2vw;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.input_form{
+    border: none;
+    width: 40%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.627);;
+}
+
+.cta{
+    width: 25%;
+    height: 40px;
+    background-color: rgba(255, 170, 0, 1);
+    border: none;
+    font-family: keep;
+}
+
+.cta:hover{
+    background-color: rgb(2, 139, 0);
+    border: none;
+    color: white;
+    font-family: keep;
+}
+
+ul{
+    display:inline-block;
+    position: relative;
+    width: 90%;
+    left: 5%;
+}
+
+nav{
+    width: 49%;
+    margin: 0;
+    display: inline-block;
+}
+
+li{
+    display:inline-block;
+    font-size: 2vw;
+}
+
+.label_form{
+    font-family: keep;
+}
+
+@media (max-width: 1300px){    
+    
+    .login-form{
+        background-color: rgba(0, 0, 0, .6);
+        color: white;
+        padding:20px;
+        font-family: stereo;
+        text-align: center;
+        width: 50%;
+        position: relative;
+        left: 23%;
+        font-size: 3vw;
+        top:8%;
+    }
+    
+    .go_login{
+        font-family: stereo;
+        font-size: 2vw;
+    }
+    
+    label{
+        font-family: stereo;
+    }
+    
+    
+    .alert alert-succes{
+        position: relative;
+        font-size: 2vw;
+        font-family: keep;
+    }
+
+    .login-form a{
+        text-decoration: underline;
+    }
+    
+    h2{
+        background-color: rgba(255, 170, 0, 1);
+        padding:20px;
+        font-family: keep;
+        font-size: 1.3vw;
+        position: relative;
+        color: white;
+        width: 50%;
+        left: 23%;
+        top: 11%;
+        text-align: center;
+        z-index: 998;
+    }
+    
+    #logo{
+        position: fixed;
+        width: 20%;
+        left: 40%;
+        top: -10px;
+        height: auto;
+        z-index: 999;
+    }
+    
+    a{
+        list-style-type: none;
+        text-decoration: none;
+        color: rgba(255, 170, 0, 1);
+    }
+    
+    .a_nav{
+        list-style-type: none;
+        text-decoration: none;
+        display:inline-block;
+        position: relative;
+        padding-left: 100px;
+        color: white;
+    }
+    
+    .a_nav_right{
+        color: white;
+        position: relative;
+        left: 7%;
+        padding-left: 100px;
+    }
+    
+    header{
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 80px;
+        top: 5%;
+        margin: 0;
+        padding: 0;
+        font-family: stereo;
+        font-size: 2vw;
+        background-color: rgba(0, 0, 0, .6);
+    }
+    
+    .input_form{
+        border: none;
+        width: 33%;
+        height: 30px;
+        background-color: rgba(255, 255, 255, 0.627);;
+    }
+    
+    .cta{
+        width: 20%;
+        height: 30px;
+        background-color: rgba(255, 170, 0, 1);
+        border: none;
+        font-family: keep;
+    }
+    
+    .cta:hover{
+        width: 20%;
+        height: 30px;
+        background-color: rgb(2, 139, 0);
+        border: none;
+        color: white;
+        font-family: keep;
+    }
+    
+    ul{
+        display:inline-block;
+        position: relative;
+        width: 90%;
+        left: 5%;
+    }
+    
+    nav{
+        width: 49%;
+        margin: 0;
+        display: inline-block;
+    }
+    
+    li{
+        display:inline-block;
+    }
+    
+    .label_form{
+        font-family: keep;
+    }
+}
